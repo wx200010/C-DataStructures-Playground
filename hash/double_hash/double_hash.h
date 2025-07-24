@@ -15,9 +15,9 @@ typedef struct
 int hash1(int key);
 int hash2(int key);
 hash_item_t *hashtable_create();
-hash_item_t *hashtable_search(hash_item_t *h, int key);
-void hashtable_insert(hash_item_t *h, int key, int value);
-void hashtable_remove(hash_item_t *h, int key);
-void hashtable_print_table(hash_item_t *h);
+hash_item_t *hashtable_search(hash_item_t *ht, int key);
+void hashtable_insert(hash_item_t *ht, int key, int value);
+void hashtable_remove(hash_item_t *ht, int key);
+void hashtable_print_table(hash_item_t *ht);
 
 #endif // DOUBLE_HASH_H
