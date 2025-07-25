@@ -1,5 +1,5 @@
-#ifndef DOUBLE_HASH_H
-#define DOUBLE_HASH_H
+#ifndef LINEAR_PROBE_H
+#define LINEAR_PROBE_H
 
 #include <stdint.h>
 #include <limits.h>
@@ -19,4 +19,4 @@ void hashtable_insert(hash_item_t *ht, int key, int value);
 void hashtable_remove(hash_item_t *ht, int key);
 void hashtable_print_table(hash_item_t *ht);
 
-#endif // DOUBLE_HASH_H
+#endif // LINEAR_PROBE_H

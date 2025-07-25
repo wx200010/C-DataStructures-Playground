@@ -6,6 +6,7 @@ BIN = test
 CHAINING_SRC = chaining/chaining.c chaining/test.c
 DOUBLE_HASH_SRC = double_hash/double_hash.c double_hash/test.c
 LINEAR_PROBE_SRC = linear_probe/linear_probe.c linear_probe/test.c
+QUADRATIC_PROBE_SRC = quadratic_probe/quadratic_probe.c quadratic_probe/test.c
 
 test_chaining:
 	$(CC) $(CFLAGS) $(CHAINING_SRC) -o $(BIN)
@@ -22,6 +23,11 @@ test_double_hash:
 	./$(BIN)
 	rm ./$(BIN)
 	
+test_quadratic_probe:
+	$(CC) $(CFLAGS) $(QUADRATIC_PROBE_SRC) -o $(BIN)
+	./$(BIN)
+	rm ./$(BIN)
+
 
 clean:
 	rm -f $(BIN)
