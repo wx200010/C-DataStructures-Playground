@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "*.js": "javascriptreact",
+        "chaining.h": "c",
+        "linear_probe.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "bubble_sort.h": "c"
+    },
+    "[git-commit]": {
+        "editor.rulers": [72]
+    }
+}
